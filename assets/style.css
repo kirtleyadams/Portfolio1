@@ -1,0 +1,12 @@
+body{
+    font-size: 15px;
+}
+.navleft {
+    padding: 10px;
+}
+.navright {
+    display: flex;
+
+    padding: 10px;
+    justify-content: end;
+}
