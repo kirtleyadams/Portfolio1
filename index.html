@@ -12,8 +12,7 @@
     <title> Kirtley Adams</title>
   </head>
   <nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <div class="container-fluid">
-
+    <div class="container-fluid" id="navbar">
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -23,7 +22,7 @@
           <a class="navleft" href="#">Skills</a>
           <a class="navleft" href="#">Portfolio</a>
           <a class="navleft" href="#">Contact</a>
-          <a class="navbar-brand" href="#">Kirtley Adams</a>
+          <a class="navbar-brand justify-content-center" href="#">Kirtley Adams</a>
           <a class="navright" href="https://www.linkedin.com/in/kirtley-adams-9b0155223/" target="_blank"><i class="fab fa-linkedin"></i></a>
           <a class="navright" href="https://github.com/kirtleyadams" target="_blank"><i class="fab fa-github"></i></a>
           <a class="navright" href="#"><i class="far fa-envelope"></i></a>
@@ -50,17 +49,17 @@
       </div>
     </nav>
     <body>
-    <div class="container">
-        <div class="about-me">
-          <div class="row">
-          <div class="col-4" id="picture">
-            picture
-          </div>
-          <div class="col-8" id="info">
-            about me info
-          </div>
-          </div>
+    <div class="container-fluid">
+      <div class="about-me">
+        <div class="row">
+        <div class="col-6" id="picture">
+          <img src="images/profilepic.png">
         </div>
+        <div class="col-6" id="info">
+          about me info
+        </div>
+        </div>
+      </div>
 
       <div class="skills">
         <div class="row">
@@ -87,26 +86,8 @@
         </div>
       </div>
 
-      <div class= "Contact">
-        <div class= "row">
-          <form>
-            <div class="col-4">
-              <label for="exampleInputEmail1" class="form-label">Name*</label>
-              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-            </div>
-            <div class="col-4">
-              <label for="exampleInputPassword1" class="form-label">E-mail*</label>
-              <input type="password" class="form-control" id="exampleInputPassword1">
-            </div>
-            <div class="col-4">
-              <label for="exampleInputPassword1" class="form-label">Message*</label>
-              <input type="password" class="form-control" id="exampleInputPassword1">
-            </div>
-            <button type="submit" class="btn btn-primary">Let's Connect!</button>
-          </form>
-        </div>
-      </div>
-    </div>
+    
+  </div>
   <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/js/bootstrap.js"></script>

@@ -6,7 +6,38 @@ body{
 }
 .navright {
     display: flex;
-
     padding: 10px;
     justify-content: end;
+}
+#contactinfo {
+    margin: 4px;
+}
+#navbar {
+    padding: 15px;
+    justify-content: center;
+    display: flex;
+    margin: auto;
+}
+#image {
+    padding: 5px;
+}
+#left {
+    border: 1px solid black;
+    background-color: rgb(255, 187, 0);
+    height: 50vh;
+    /* margin: 10px; */
+    padding: 5px;
+    align-items: center;
+    text-align: center;
+}
+#right {
+    border: 1px solid black;
+    height: 50vh;
+    text-align: center;
+}
+
+.col-4 {
+    border: 1px solid black;
+    height: 50ch;
+    text-align: center;
 }
