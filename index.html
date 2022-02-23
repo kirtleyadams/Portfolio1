@@ -11,83 +11,80 @@
     <link rel="stylesheet" href="assets/style.css">
     <title> Kirtley Adams</title>
   </head>
-  <nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <div class="container-fluid" id="navbar">
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-        <div class="navbar-nav">
-          <a class="navleft active" aria-current="page" href="#">About Me</a>
-          <a class="navleft" href="#">Skills</a>
-          <a class="navleft" href="#">Portfolio</a>
-          <a class="navleft" href="#">Contact</a>
-          <a class="navbar-brand justify-content-center" href="#">Kirtley Adams</a>
-          <a class="navright" href="https://www.linkedin.com/in/kirtley-adams-9b0155223/" target="_blank"><i class="fab fa-linkedin"></i></a>
-          <a class="navright" href="https://github.com/kirtleyadams" target="_blank"><i class="fab fa-github"></i></a>
-          <a class="navright" href="#"><i class="far fa-envelope"></i></a>
-          <a class="navright" href="#"><i class="fas fa-phone-square"></i></a>
+  
+
+
+
+<nav class="py-2 bg-light">
+  <div class="container d-flex flex-wrap">
+    <ul class="nav ms-auto">
+      <li class="nav-item"><a href="#" class="nav-link link-dark px-2">HOME</a></li>
+      <li class="nav-item"><a href="#" class="nav-link link-dark px-2">ABOUT</a></li>
+      <li class="nav-item"><a href="#" class="nav-link link-dark px-2">CONTACT</a></li>
+    </ul>
+  </div>
+</nav>
+<header class="py-3 mb-4 bg-light">
+  <div class="container d-flex flex-wrap">
+    <a href="/" class="d-flex align-items-center mb-3 mb-lg-0 me-lg-auto text-dark text-decoration-none">
+      <!-- <svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap"></use></svg> -->
+      <span class="fs-4">KIRTLEY ADAMS</span>
+    </a>
+      <ul class="nav me-auto">
+      <li class="nav-item"><a href="#" class="nav-link link-dark px-2 active" aria-current="page">SKILLS</a></li>
+      <li class="nav-item"><a href="#" class="nav-link link-dark px-2">PORTFOLIO</a></li>
+      <li class="nav-item"><a href="#" class="nav-link link-dark px-2">RESUME</a></li>
+    </ul>
+  </div>
+</header>
+
+<div class="container-auto">
+  <div class="row">
+    <div class="col-1 left-sidebar">
+      <ul>
+        <li>LET'S CONNECT</li>
+        <li><a href="https://www.github.com/kirtleyadams"><i class="fab fa-github"></i></a></li>
+        <li><a target="_blank" href="http://www.linkedin.com/kirtley-adams-9b0155223"><i class="fab fa-linkedin-in"></i></a></li>  
+        <li><a target="_blank" href="https://twitter.com/golivehq"><i class="fas fa-envelope"></i></a></li>
+        <li><a target="_blank" href="https://www.pinterest.com/golivehq/"><i class="fab fa-phone-rotary"></i></a></li>
+      </ul>
+    </div>
+    <div class="col-5 aboutLeft">
+      <img src="images/profilepic.png" id="profilePic">
+    </div>
+    <div class="col-5 aboutRight">
+      <h1 id="about">ABOUT KIRTLEY</h1>
+      <p id="about"> I am a military spouse and mom of 3. 
+        I am currently the Volunteer Director for a non-profit organization helping military families with medical and educational needs
+        navigate services. We also work with members of Congress to advocate for change to help our families across all branches. 
+        I manage all of our volunteers within the orgainzation, on-boarding of volunteers, and work closely with our CEO, Communication, and Advocacy Directors.</p>
+    </div>
+  </div>
+  <div class="row">
+    <div class="skills">
+      <div class="row">
+        <div class="skillTitle">SKILLS</div>
+        <div class="col" id="left">
+          <h5>HTML</h5>
+          <br>
+          <h5>CSS</h5>
+          <br>
+          <h5>JAVASCRIPT</h5>
+        </div>
+        <div class="col" id="right">
+          <h5>MYSQL</h5>
+          <br>
+          <h5>EXPRESS</h5>
+          <br>
+          <h5>SOMETHING ELSE</h5>
         </div>
       </div>
     </div>
-  </nav>
-          <!-- <ul class="navbar-left">           
-            <li class="nav-item">
-              <a class="nav-link" href="https://www.linkedin.com/in/kirtley-adams-9b0155223/" target="_blank"><i class="fab fa-linkedin"></i></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="https://github.com/kirtleyadams" target="_blank"><i class="fab fa-github"></i></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#"><i class="far fa-envelope"></i></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#"><i class="fas fa-phone-square"></i></a>
-            </li>
-          </ul> -->
-        </div>
-      </div>
-    </nav>
-    <body>
-    <div class="container-fluid">
-      <div class="about-me">
-        <div class="row">
-        <div class="col-6" id="picture">
-          <img src="images/profilepic.png">
-        </div>
-        <div class="col-6" id="info">
-          about me info
-        </div>
-        </div>
-      </div>
-
-      <div class="skills">
-        <div class="row">
-          <div class="col-6" id="left">
-            side a skills
-          </div>
-          <div class="col-6" id="right">
-            side b skills
-          </div>
-        </div>
-      </div>
-
-      <div class="portfolio">
-        <div class="row">
-          <div class="col-4">
-            project 1
-          </div>
-          <div class="col-4">
-            homework 1
-          </div>
-          <div class="col-4">
-            homework 2
-          </div>
-        </div>
-      </div>
-
-    
   </div>
+</div>
+
+
+<body>
   <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/js/bootstrap.js"></script>

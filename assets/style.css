@@ -1,7 +1,7 @@
 body{
     font-size: 15px;
 }
-.navleft {
+/* .navleft {
     padding: 10px;
 }
 .navright {
@@ -17,27 +17,76 @@ body{
     justify-content: center;
     display: flex;
     margin: auto;
+} */
+/* #profilePic { */
+    /* max-height: 90%;
+    max-width: 90%; */
+/*  */
+h1 {
+    text-align: center;
+    vertical-align: middle;
+    margin-top: 25%;
+    margin-bottom: 25px;
+    border-bottom: 1px solid black;
+    padding-bottom: 10px;    
 }
-#image {
-    padding: 5px;
+.aboutLeft {
+    margin-top: 50px;
+    margin-bottom: 75px;
+
+}
+.aboutRight {
+    border: 1px solid black;
+    max-height: 611px;
+    max-width: 611px;
+    padding: 55px;
+    margin-right: 110px;
+    margin-top: 50px;
+    margin-left: 29px;
+}
+
+.left-sidebar ul li:first-child {
+    margin-top: 70px;
+    transform: rotate(-270deg);
+    transform-origin: 41px -20px;
+    display: inline-block;
+    font-size: 16px;
+    color: black;
+    text-decoration: none;
+}
+.skillTitle{
+    background-color: rgb(255, 187, 0);
+    padding: 20px;
+    text-align: center;
+    font-size: 40px;
+    padding-bottom: 35px;
 }
 #left {
-    border: 1px solid black;
+    /* border: 1px solid black; */
     background-color: rgb(255, 187, 0);
     height: 50vh;
     /* margin: 10px; */
-    padding: 5px;
+    padding: 40px;
+    padding-left: 70px;
+    padding-right: 70px;
     align-items: center;
     text-align: center;
-}
-#right {
-    border: 1px solid black;
-    height: 50vh;
-    text-align: center;
+    font-size: 16px;
 }
 
-.col-4 {
-    border: 1px solid black;
-    height: 50ch;
+#right {
+    /* border: 1px solid black; */
+    background-color: rgb(255, 187, 0);
+    padding: 40px;
+    height: 50vh;
     text-align: center;
+    font-size: 16px;
+    padding-left: 70px;
+    padding-right: 70px;
+    /* display: flex; */
+}
+h5 {
+    padding-bottom: 25px;
+    border-bottom: 1px solid white;
+    /* padding: 25px; */
 }
