@@ -1,5 +1,6 @@
 body{
     font-size: 15px;
+    font-family: 'Montserrat', sans-serif;
 }
 h1 {
     text-align: center;
@@ -17,17 +18,12 @@ h1 {
 }
 .aboutRight {
     border: 1px solid black;
-    font-family: 'Montserrat', sans-serif;
     max-height: 611px;
     max-width: 611px;
     padding: 55px;
     margin-right: 110px;
     margin-top: 50px;
     margin-left: 29px;
-}
-#about {
-    font-family: 'Montserrat', sans-serif;
-    
 }
 .left-sidebar {
     display: flex;
@@ -46,7 +42,7 @@ h1 {
     padding-right: 25px;
 }
 li {
-    margin-top: 15px;
+    margin-top: 20px;
 }
 .skillTitle{
     background-color: #F5F1EB;
