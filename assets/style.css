@@ -17,6 +17,7 @@ h1 {
 }
 .aboutRight {
     border: 1px solid black;
+    font-family: 'Montserrat', sans-serif;
     max-height: 611px;
     max-width: 611px;
     padding: 55px;
@@ -24,15 +25,28 @@ h1 {
     margin-top: 50px;
     margin-left: 29px;
 }
+#about {
+    font-family: 'Montserrat', sans-serif;
+    
+}
+.left-sidebar {
+    display: flex;
+    justify-content: center;
+    padding-right: 75px;
+}
 
 .left-sidebar ul li:first-child {
     margin-top: 70px;
     transform: rotate(-270deg);
-    transform-origin: 41px -20px;
+    /* transform-origin: 41px -20px; */
     display: inline-block;
     font-size: 16px;
     color: black;
     text-decoration: none;
+    padding-right: 25px;
+}
+li {
+    margin-top: 15px;
 }
 .skillTitle{
     background-color: #F5F1EB;
@@ -54,6 +68,8 @@ h1 {
     align-items: center;
     text-align: center;
     font-size: 16px;
+    font-weight: none;
+    font-family: 'Montserrat', sans-serif;
 }
 
 #right {
@@ -65,6 +81,7 @@ h1 {
     font-size: 16px;
     padding-left: 70px;
     padding-right: 70px;
+    font-family: 'Montserrat', sans-serif;
     /* display: flex; */
 }
 h5 {
@@ -72,14 +89,7 @@ h5 {
     border-bottom: 1px solid white;
     /* padding: 25px; */
 }
-#project1, #project2{
-    /* border: 1px solid black; */
-    /* background-color: black; */
-}
-#project3, #project4, #project5{
-    /* border: 1px solid black; */
-    /* background-color: black; */
-}
+
 #projectLeft {
     max-width: 95%;
     max-height: 95%;
@@ -139,15 +149,30 @@ h5 {
 #contact {
     font-family: 'Abril Fatface', cursive;
     color: #C4AFA1;
+    font-size: 40px;
 }
 .navTop {
     background-color: #EAE0D7;
+    font-family: 'Montserrat', sans-serif;
+}
+.navBottom {
+    font-family: 'Montserrat', sans-serif;
 }
 .titleName {
     font-family: 'Abril Fatface', cursive;
     color: #C4AFA1;
+    font-size: 40px;
 }
 a {
     color: black;
     text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+}
+i {
+    margin-left: 60px;
+    margin-right: 5px;
+    /* vertical-align: middle; */
+}
+.navbarBottom {
+    margin-top: 10px;
 }
